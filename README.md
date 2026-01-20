@@ -1,6 +1,4 @@
-Please cite XXX...
-
-Code is available...
+Here, we present a densely sampled fMRI dataset wherein 31 participants provided subjective value ratings for over 500 food images across three separate days.
 
 ## Experimental Task
 
@@ -13,6 +11,6 @@ We used 568 out of the 896 food images from the Food-pics dataset (<https://www.
 
 ## Data Records
 
-All data are organized according to the Brain Imaging Data Structure (BIDS) and are available on the OpenNeuro database (<https://openneuro.org/>). Each participant is assigned a unique identifier (e.g., sub-001), and demographic information is provided in the participants.tsv file. The dataset consists of three sessions per participant, corresponding to the three experimental days (labeled ses-01, ses-02, and ses-03). Each session directory contains three subdirectories: anat, fmap, and func, housing anatomical, field-map, and functional images, respectively. Typically, the func directory contains four experimental runs; however, due to a technical issue, one participant (sub-016) completed only two runs in the third session (ses-03).
+All data are organized according to the Brain Imaging Data Structure (BIDS) and are available on the OpenNeuro database (<https://openneuro.org/>). Each participant is assigned a unique identifier (e.g., sub-001), and demographic information is provided in the participants.tsv file. The dataset consists of three sessions per participant, corresponding to the three experimental days (labeled ses-01, ses-02, and ses-03). Each session directory contains three subdirectories: *anat*, *fmap*, and *func*, housing anatomical, field-map, and functional images, respectively. Typically, the func directory contains four experimental runs; however, due to a technical issue, one participant (sub-016) completed only two runs in the third session (ses-03).
 
-Preprocessed data are stored in the derivatives directory. Detailed behavioral data are provided in event files (e.g., sub-001_ses-01_task-food_run-01_events.tsv) located within the func directory. These event files contain trial-wise information, including: stimulus properties (the food image presented, along with its visual and nutritional features); participant responses (the subjective rating submitted by the participant); and timing (onsets and durations for the Valuation, Rating, and Feedback phases, as well as the timing of key-press responses).
+Detailed behavioral data are provided in event files (e.g., sub-001_ses-01_task-food_run-01_events.tsv) located within the *func* directory. These event files contain trial-wise information, including: stimulus properties (the food image presented, along with its visual and nutritional features); participant responses (the subjective rating submitted by the participant); and timing (onsets and durations for the Valuation, Rating, and Feedback phases, as well as the timing of key-press responses).
