@@ -23,5 +23,8 @@
     "DatasetDOI": "doi:10.18112/openneuro.ds007267.v1.1.0",
     "Funding": [
         "Test"
+    ],
+    "ReferencesAndLinks": [
+        "https://www.nature.com/articles/s41597-026-07323-y"
     ]
 }
